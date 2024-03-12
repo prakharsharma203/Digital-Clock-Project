@@ -8,10 +8,10 @@ function updateTime(){
     let h = date.getHours();
     let m = date.getMinutes();
     let s = date.getSeconds();
-    let ampms = "PM";
+    let ampms = "AM";
     
     if(h>12){
-        ampms = "AM";
+        ampms = "PM";
         h=h-12;
     }
     h = h<10?"0"+ h:h;
